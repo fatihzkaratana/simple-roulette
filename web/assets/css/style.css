@@ -1,0 +1,302 @@
+/* 
+    Document   : style
+    Created on : Nov 19, 2011, 10:38:28 AM
+    Author     : fatih
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    overflow: hidden;
+    font-size: 100%;
+    font-size: 12pt;
+    font-family: Georgia;
+    background: #000;
+}
+.clr{
+    clear: both;
+    width: 100%;
+}
+#close a{
+    width: 34px;
+    height: 34px;
+    float: right;
+    background: transparent url("../images/shapesBg.png") no-repeat -922px 0px;
+    display: block;
+    z-index: 999;
+    position: relative;
+}
+#wrapper{
+    width: 960px;
+    height: 700px;
+    padding: 0;
+    margin: 0 auto;
+}
+#SansCemberi #wrapper{
+    background: transparent url("../images/bg.png") no-repeat;
+}
+#logo a{
+    width: 187px;
+    height: 111px;
+    background: transparent url("../images/shapesBg.png") no-repeat 0px 0px;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 999;
+}
+#picker{
+    width: 27px;
+    height: 293px;
+    background: transparent url("../images/shapesBg.png") no-repeat 0px -110px;
+    float: left;
+    padding: 40px 35px;
+}
+#picker ul#pickList{
+    width: 34px;
+    height: 290px;
+    text-align: center;
+    overflow: hidden;
+}
+#picker ul#pickList .item{
+    background: transparent url("../images/shapesBg.png") no-repeat -963px -8px;
+}
+#roller{
+    width: 350px;
+    height: 350px;
+    background: transparent url("../images/shapesBg.png") no-repeat -188px -30px;
+    float: left;
+    padding: 47px;
+    position: relative;
+    top: -80px;
+    margin: 0 25px 0px 42px;
+}
+#table{
+    width: 350px;
+    height: 302px;
+    text-align: center;
+}
+img#ball{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+}
+#countWrapper, #overlay #loader{
+    position: relative;
+    top: 142px;
+    text-align: center;
+}
+#countWrapper #counter, #loader label{
+    color: red;
+    font-size: 4em;
+}
+#loader h1{
+    font-size: 4em;
+    color: #d5d5d5;
+}
+#betBoard{
+    width: 304px;
+    height: 505px;
+    background: transparent url("../images/shapesBg.png") no-repeat -627px -34px;
+    float: left;
+    position: relative;
+    top: -88px;
+    margin: 0 0 -88px 25px;
+    padding: 35px 10px 0px 10px;
+}
+#betBoard ul{
+    float: left;
+    width: 100%;
+}
+#betBoard ul.board{
+    height: 109px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#betBoard ul.board h1{
+    font-size: 15pt;
+    font-weight: lighter;
+}
+#betBoard ul li{
+    float: left;
+}
+#betBoard ul.board li.item{
+    float: left;
+    width: 22%;
+    margin: 0px 5px;
+    height: 88px;
+    padding: 0px 0 0 0;
+}
+#betBoard ul.board li.item .rate{
+    height: 28px;
+    font-size: 14pt;
+    color: #f2f2d2;
+    line-height: 30px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: center;
+    font-family: georgia;
+        
+}
+#betBoard ul.board li.item .price{
+    height: 45px;
+    font-size: 30pt;
+    color: #f2f2d2;
+    line-height: 45px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: center;
+    font-family: georgia;
+}
+#betBoard ul.board li#color0{
+    color: #d7181d;
+}
+#betBoard ul.board li#color1{
+    color: #0590e8;
+}
+#betBoard ul.board li#color2{
+    color: #00b100;
+}
+#betBoard ul.board li#color3{
+    color: #b2b601;
+}
+#betBoard ul#prices{
+    margin: 12px 0 12px 0;
+}
+#betBoard ul#prices li button{
+    background: transparent url("../images/shapesBg.png") no-repeat -637px -439px;
+    padding: 13px;
+    color: #37271F;
+    font-weight: bold;
+    font-size: 15pt;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-family: georgia;
+}
+#betBoard ul#prices li button:active, #betBoard ul#prices li button.default{
+    background-position: -687px -439px;
+    color: #f2f2d2;
+}
+#betBoard #finance .info{
+    float: left;
+    width: 102px;
+    height: 45px;
+    padding: 10px 25px;
+}
+#betBoard #finance .info h1{
+    font-size: 14pt;
+    font-style: italic;
+    font-weight: bold;
+}
+#betBoard #finance .info .amount{
+    width: 100%;
+    font-size: 17pt;
+    font-weight: lighter;
+    text-align: center;
+}
+.box{
+    width: 290px;
+    height: 149px;
+    padding: 30px 10px 0 10px;
+    background: transparent url("../images/shapesBg.png") no-repeat -7px -493px;
+    float: left;
+    position: relative;
+    top: -82px;
+    margin: 0 5px 0 0;
+}
+.box h1{
+    font-size: 15pt;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+#buttons{
+    float: left;
+    margin: 0 0 0 10px;
+}
+#buttons button{
+    width: 155px;
+    cursor: pointer;
+    height: 98px;
+    border:none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    background: transparent url("../images/shapesBg.png") no-repeat;
+    font-family: georgia;
+    font-size: 20pt;
+    color: #FFF;
+    opacity: .8;
+    font-style: italic;
+}
+#buttons button#btnReset{
+    background-position: -637px -582px;
+}
+#buttons button#btnSubmit{
+    background-position: -794px -582px;
+}
+#buttons button#btnReset:active{
+    background-position: -321px -580px;
+}
+#buttons button#btnSubmit:active{
+    background-position: -478px -580px;
+}
+.box h3{
+    float: left;
+    width: 28%;
+    margin: 0 15px 0 0; 
+    font-weight: bold;
+    text-align: center;
+    font-size: 10pt;
+}
+.box h3.noMargin{margin: 0;}
+ul.infoList{
+    width: 285px;
+    height: 105px;
+    overflow: hidden;
+}
+ul.infoList li{
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid #9b9b91;
+    width: 295px;
+    height: 15px;
+}
+ul.infoList li .notice{
+    display: block;
+    float: left;
+    width: 28%;
+    margin: 0 15px 0 0; 
+    font-weight: bold;
+    text-align: center;
+    font-size: 10pt;
+}
+#seperator{
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#overlay{background:#000 url(../images/login/loading.gif) center center no-repeat;display:block;height:700px;position:absolute;width:960px;z-index:9999}
+#console {
+    position: absolute;
+    padding-left: 5px;
+    display: block;
+    overflow: auto;
+    width: 670px;
+    height: 700px;
+    left:  965px;
+    top:  0px;
+    border: 1px blue solid;
+    font-size: 10px;
+    color: white;
+    font-size: 12pt;
+}
+

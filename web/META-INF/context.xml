@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/SansCemberi">
+<Resource 
+            name="jdbc/nicogame" 
+            auth="Container"
+            type="javax.sql.DataSource" 
+            driverClassName="oracle.jdbc.OracleDriver"
+            url="jdbc:oracle:thin:@192.168.1.104:1521:HLGS"
+            username="HLGS" 
+            password="HLS" 
+            validationQuery="select  1 from dual"
+            validationInterval="30000"
+            timeBetweenEvictionRunsMillis="5000"
+            maxActive="100"
+            minIdle="5"
+            maxIdle="10"
+            maxWait="10000"
+            initialSize="2"
+            removeAbandonedTimeout="10"
+            removeAbandoned="true"
+            logAbandoned="true"/>
+</Context>

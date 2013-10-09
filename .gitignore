@@ -1,5 +1,7 @@
 *.class
-
+nbproject
+build.xml
+build
 # Package Files #
 *.jar
 *.war
